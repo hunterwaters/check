@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    background: none;
+    font-size: 80px;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+body {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin: 60px;
+    background-image: url("https://www.legalreader.com/wp-content/uploads/2014/07/seattle-background.jpg");
+}
+
+
+
+footer {
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    background-color: black;
+    border: 2.5px solid white;
+    color: red;
+
+
+    
+}
+
+section {
+    padding: 70px;
+    border: 2.5px solid white;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+img {
+    padding: 5px;
+    margin: 0 auto;
+
+}
+nav {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+    
+    
+    
+}
+ul {
+    list-style: none;
+
+}
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+    margin: 10px;
+
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 60px;
+    
+    
+}
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+a {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h3 {
+    padding: 10px;
+    width: 70%;
+
+}
+#logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+  
+
+}
+
+#selfPhoto {
+    height: 230px;
+    width: 210px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    
+}
+#contactMe {
+    height: 50px;
+    width: 150px;
+}
+
+.quizApp1 {
+    height: 250px;
+    width: 275px;
+}
+
+.quizApp2 {
+    height: 250px;
+    width: 250px;
+}
+@media (max-width: 720px) {
+    p, section, #links {
+      font-size: 23px;
+      padding: 2px;
+      margin: 0;
+      width: 100%;
+      
+    }
+    #selfPhoto, .quizApp1, .quizApp2 {
+        height: 150px;
+        width: 150px;
+    }
+    footer {
+        font-size: 10px;
+        margin-bottom: 0;
+    
+    }
+    .logo {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+     ul {
+        font-size: 10px;
+    }
+    #contactMe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 32.5px;
+    }
+
+
+
+}
+
+
